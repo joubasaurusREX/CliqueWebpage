@@ -3,83 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clique - Connect & Explore</title>
+    <title>Clique - Connect Your Crew, Discover New Connections</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <!-- Navigation -->
         <nav class="nav">
             <div class="nav-content">
                 <div class="logo">Clique</div>
                 <div class="nav-links">
-                    <a href="#about" class="nav-link">About</a>
+                    <a href="#how-it-works" class="nav-link">How it Works</a>
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#about" class="nav-link">About Us</a>
                     <a href="#contact" class="nav-link">Contact</a>
                 </div>
+                <button class="mobile-menu-btn" aria-label="Toggle mobile menu">☰</button>
             </div>
         </nav>
 
-        <!-- Hero Section -->
         <section class="hero">
             <div class="hero-content">
-                <h1 class="title">Connect & Explore</h1>
-                <h2 class="subtitle">Join Cliques, Make Friends</h2>
+                <h1 class="title">Connect Your Crew. Discover New Connections.</h1>
+                <h2 class="subtitle">Match with groups that share your vibe.</h2>
                 <p class="description">
-                    Connect with like-minded people and build meaningful relationships through shared interests and adventures.
+                    Tired of solo swiping? Clique lets you and your friends create a profile together, then discover and match with other groups based on shared interests and activities. Real connections, real fun, with your real friends.
                 </p>
                 <div class="button-group">
-                    <button class="button button-primary button-large">
-                        Coming Soon
+                    <button class="button button-primary button-large download-button">
+                        <i class="fab fa-apple button-icon"></i> Download on App Store
+                    </button>
+                    <button class="button button-secondary button-large download-button">
+                        <i class="fab fa-google-play button-icon"></i> Get it on Google Play
                     </button>
                 </div>
             </div>
         </section>
 
-        <!-- About Section -->
+        ---
+
+        <section id="how-it-works" class="how-it-works">
+            <div class="section-header">
+                <h2 class="section-title">How Clique Works</h2>
+                <p class="section-description">Getting started with Clique is easy and fun. Here's a quick guide to connecting with other crews.</p>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <h3 class="step-title">Form Your Clique</h3>
+                    <p class="step-description">Invite your friends to create your unique Clique profile. Highlight your group's interests, hobbies, and what makes your crew awesome!</p>
+                </div>
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <h3 class="step-title">Discover Other Cliques</h3>
+                    <p class="step-description">Explore groups near you with similar interests. Our intelligent matching algorithm suggests Cliques you'll genuinely connect with.</p>
+                </div>
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <h3 class="step-title">Match & Connect</h3>
+                    <p class="step-description">When there's a mutual interest, it's a match! Chat with other Cliques, plan meetups, and expand your social circle together.</p>
+                </div>
+            </div>
+        </section>
+
+        ---
+
+        <section id="features" class="features">
+            <div class="section-header">
+                <h2 class="section-title">Why You'll Love Clique</h2>
+                <p class="section-description">Clique offers unique features designed to make group connections seamless and exciting.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-users feature-icon" style="color: #4ecdc4;"></i>
+                    <h3 class="feature-title">Group Profiles</h3>
+                    <p class="feature-description">Create a dynamic profile for your entire friend group, showcasing your collective personality and interests.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-handshake feature-icon" style="color: #4ecdc4;"></i>
+                    <h3 class="feature-title">Interest-Based Matching</h3>
+                    <p class="feature-description">Our smart algorithm connects you with groups whose members share genuinely similar passions, from hiking to gaming.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-comments feature-icon" style="color: #4ecdc4;"></i>
+                    <h3 class="feature-title">Group Chat & Planning</h3>
+                    <p class="feature-description">Seamlessly chat with matched Cliques and coordinate group activities directly within the app.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt feature-icon" style="color: #4ecdc4;"></i>
+                    <h3 class="feature-title">Enhanced Safety</h3>
+                    <p class="feature-description">Meet new people safely with your friends by your side. All interactions start and stay at the group level.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-map-marker-alt feature-icon" style="color: #4ecdc4;"></i>
+                    <h3 class="feature-title">Local Discoveries</h3>
+                    <p class="feature-description">Find Cliques and events in your local area, making it easier to arrange real-world meetups and adventures.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-calendar-alt feature-icon" style="color: #4ecdc4;"></i>
+                    <h3 class="feature-title">Event Collaboration</h3>
+                    <p class="feature-description">Propose and join group events with matched Cliques, making social planning a breeze for everyone involved.</p>
+                </div>
+            </div>
+        </section>
+
+        ---
+
         <section id="about" class="about">
             <div class="about-content">
                 <h2 class="section-title">About Clique</h2>
                 <p class="about-text">
-                    Clique is a social networking app currently in development. Our mission is to help people connect with others who share their interests and create meaningful friendships through shared experiences.
+                    In a world increasingly connected digitally, we noticed a gap in how people form **real-life, meaningful connections** with their friends. Traditional social apps focus on individual connections, often leading to awkward first meets or fizzled friendships. That's why we created **Clique**: an app that champions **group-to-group interaction**.
+                    <br><br>
+                    Our mission is to foster genuine community by enabling friends to expand their social circles together. We believe the best experiences are shared, and with Clique, you can easily discover other like-minded groups for shared adventures, new hobbies, or just a great night out. We're committed to building a platform that's fun, safe, and truly enhances your social life.
                 </p>
             </div>
         </section>
 
-        <!-- Footer -->
+        ---
+
+        <section id="contact" class="contact">
+            <div class="section-header">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-description">Have questions, feedback, or just want to say hello? We'd love to hear from you!</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fab fa-twitter contact-icon" style="color: #4ecdc4;"></i>
+                    <h3 class="contact-title">Follow Us</h3>
+                    <p class="contact-info">Stay updated on social media</p>
+                    <a href="https://twitter.com/cliqueapp" target="_blank" class="button button-primary button-small">Twitter</a>
+                </div>
+            </div>
+        </section>
+
         <footer class="footer">
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="logo">Clique</div>
                     <p class="footer-text">
-                        Connecting people through shared experiences.
+                        Connecting friends, one Clique at a time.
                     </p>
                 </div>
-                
+
                 <div class="footer-section">
                     <h4 class="footer-title">App</h4>
-                    <a href="#" class="footer-link">Coming Soon</a>
+                    <a href="#" class="footer-link download-button">Download App</a>
                     <a href="#" class="footer-link">Updates</a>
+                    <a href="#" class="footer-link">How it Works</a>
                 </div>
-                
+
                 <div class="footer-section">
                     <h4 class="footer-title">Company</h4>
-                    <a href="#about" class="footer-link">About</a>
+                    <a href="#about" class="footer-link">About Us</a>
+                    <a href="#features" class="footer-link">Features</a>
                     <a href="#contact" class="footer-link">Contact</a>
                 </div>
-                
+
                 <div class="footer-section">
                     <h4 class="footer-title">Legal</h4>
                     <a href="#" class="footer-link">Privacy Policy</a>
                     <a href="#" class="footer-link">Terms of Service</a>
                 </div>
             </div>
-            
+
             <div class="footer-bottom">
                 <p class="footer-copyright">
-                    &copy; 2024 Clique. All rights reserved.
+                    &copy; 2025 Clique. All rights reserved.
                 </p>
             </div>
         </footer>
