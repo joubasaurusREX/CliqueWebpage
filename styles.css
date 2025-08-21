@@ -117,6 +117,7 @@ body {
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Hero Section */
